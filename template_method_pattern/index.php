@@ -7,4 +7,4 @@
 	(new App\TurkeySub)->make();
 
 	//to make a Veggie Sub
-	//(new App\VeggieSub)->make();
+	(new App\VeggieSub)->make();
