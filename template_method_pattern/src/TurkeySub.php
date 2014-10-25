@@ -8,7 +8,7 @@ class TurkeySub {
 		return $this
 			->layBread()
 			->addLettuce()
-			->addTurkey()
+			->addPrimaryToppings()
 			->addSauces();
 	}
 
