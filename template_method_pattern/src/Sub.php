@@ -17,9 +17,30 @@ abstract class Sub {
 		return $this
 			->layBread()
 			->addLettuce()
-			->addTurkey()
+			->addPrimaryToppings()
 			->addSauces();
 	}
 
+	public function layBread()
+	{
+		var_dump('laying down the bread');
+		return $this;
+	}
+
+	public function addLettuce()
+	{
+		var_dump('add some lettuce');
+		return $this;
+	}
+
+	public function addSauces()
+	{
+		var_dump('add the sauces');
+		return $this;
+	}
+
+	//protected abstract means that any child class must
+	//declare an addPrimaryToppings() method
+	protected abstract function addPrimaryToppings();
 
 }
