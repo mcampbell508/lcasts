@@ -1,8 +1,8 @@
 <?php namespace App;
 
-class TurkeySub extends Sub {
+class TurkeySub {
 
-	public funtion make()
+	public function make()
 	{
 		//using fluent syntax
 		return $this

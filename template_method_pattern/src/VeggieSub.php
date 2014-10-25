@@ -1,6 +1,6 @@
 <?php namespace App;
 
-class TurkeySub extends Sub {
+class TurkeySub {
 
 	public funtion make()
 	{
